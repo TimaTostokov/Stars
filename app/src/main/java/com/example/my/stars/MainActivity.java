@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.my.stars.engine.Engine;
 
-
 public class MainActivity extends AppCompatActivity {
 
     SurfaceView surface;

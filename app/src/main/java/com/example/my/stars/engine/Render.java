@@ -28,7 +28,7 @@ public class Render {
 
             if (isx < canvas.getWidth() && isx >= 0
                     && isy < canvas.getHeight() && isy >= 0) {
-                float colorGain = ((float)(255 + (int)(point.z * (255 / Math.abs(Model.INITIAL_Z_COORD))))) / 255f;
+                float colorGain = ((float)(255 + (int)(point.z * (255 / Math.abs(Model.INITIAL_Z_CORD))))) / 255f;
                 int colorR = (point.color & 0xff0000) >> 16;
                 int colorG = (point.color & 0xff00) >> 8;
                 int colorB = (point.color & 0xff);
